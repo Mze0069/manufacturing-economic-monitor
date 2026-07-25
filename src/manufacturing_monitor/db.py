@@ -13,6 +13,7 @@ from manufacturing_monitor.series_catalog import SUPPORTED_SERIES, SupportedSeri
 
 DEFAULT_DATABASE_PATH = Path("data/manufacturing_monitor.db")
 FETCH_SOURCE_LIVE = "live"
+FETCH_SOURCE_CACHE = "cache"
 FETCH_SOURCE_FIXTURE_OR_CACHE = "fixture/cache"
 
 
@@ -121,7 +122,7 @@ def record_fetch_run(
 
     if not is_supported_series(series_id):
         raise DatabaseError(f"Unsupported series ID '{series_id}'.")
-    if source_kind not in {FETCH_SOURCE_LIVE, FETCH_SOURCE_FIXTURE_OR_CACHE}:
+    if source_kind not in {FETCH_SOURCE_LIVE, FETCH_SOURCE_CACHE, FETCH_SOURCE_FIXTURE_OR_CACHE}:
         raise DatabaseError(f"Unsupported fetch source '{source_kind}'.")
     if requested_start_date is not None and requested_end_date is not None:
         if requested_start_date > requested_end_date:
