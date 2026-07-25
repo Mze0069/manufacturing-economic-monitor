@@ -1,101 +1,186 @@
 # Manufacturing Economic Monitor
 
-A small CLI and Streamlit dashboard for fetching the FRED Industrial Production:
-Manufacturing (`IPMAN`) series, validating the response, saving raw and processed
-JSON files, and showing the latest valid manufacturing index.
+[![CI](https://github.com/Mze0069/manufacturing-economic-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/Mze0069/manufacturing-economic-monitor/actions/workflows/ci.yml)
 
-## Setup
+A Python command-line application and interactive Streamlit dashboard for collecting, validating, storing, analyzing, and comparing manufacturing indicators from the Federal Reserve Economic Data (FRED) API.
 
-Install dependencies:
+## Published package
 
-```powershell
-uv sync
+The package is available on PyPI:
+
+```bash
+pip install manufacturing-economic-monitor
 ```
 
-Set `FRED_API_KEY` in a local `.env` file when you need to refresh live data.
+Verify the installation without contacting FRED:
 
-`.env` is ignored by Git. Do not commit API keys or downloaded live data.
-
-## Tests
-
-Run the fixture-backed test suite:
-
-```powershell
-uv run pytest
+```bash
+manufacturing-monitor --project-info
 ```
 
-Run tests with coverage:
+Current package version: `0.2.0`
 
-```powershell
-uv run pytest --cov=manufacturing_monitor
+## Supported manufacturing indicators
+
+- `IPMAN` — Industrial Production: Manufacturing
+- `IPDMAN` — Industrial Production: Durable Manufacturing
+- `IPNMAN` — Industrial Production: Nondurable Manufacturing
+- `MCUMFN` — Capacity Utilization: Manufacturing
+- `PCUOMFGOMFG` — Producer Price Index: Total Manufacturing Industries
+
+## Main capabilities
+
+- Retrieves real manufacturing data from the FRED API
+- Validates API responses and observations with Pydantic
+- Preserves one raw JSON response per selected series
+- Produces validated combined JSON output
+- Stores observations and fetch metadata in SQLite
+- Reuses cached data without an API key or network connection
+- Calculates latest value, month-over-month change, year-over-year change, minimum, maximum, mean, and missing-value counts
+- Normalizes selected indicators to a common starting value of 100
+- Exports combined normalized observations to CSV
+- Provides an interactive Plotly and Streamlit dashboard
+- Protects API keys from console output, logs, generated files, tests, and Git
+- Runs offline tests through GitHub Actions on Python 3.12, 3.13, and 3.14
+
+## Development setup
+
+Clone the repository and install the locked development environment:
+
+```bash
+git clone https://github.com/Mze0069/manufacturing-economic-monitor.git
+cd manufacturing-economic-monitor
+uv sync --dev
 ```
 
-Tests use committed files in `tests/fixtures/` and mocks/monkeypatching for
-external behavior. Routine tests do not contact the live FRED API.
+Create a local `.env` file only when live FRED refreshes are needed:
 
-## CLI
-
-Run the installed command:
-
-```powershell
-uv run manufacturing-monitor
+```text
+FRED_API_KEY=your_key_here
 ```
 
-The compatibility wrapper still works:
+The `.env` file, generated datasets, databases, logs, coverage files, and distribution artifacts are ignored by Git.
 
-```powershell
-uv run main.py
-```
+## Command-line interface
 
-Default output files are:
+Display project information without contacting FRED:
 
-- raw response: `data/raw/ipman_observations_raw.json`
-- processed observations: `data/processed/ipman_observations_processed.json`
-
-Run without contacting FRED:
-
-```powershell
+```bash
 uv run manufacturing-monitor --project-info
 ```
 
-Enable console diagnostics:
+Display all command options:
 
-```powershell
-uv run manufacturing-monitor --verbose
+```bash
+uv run manufacturing-monitor --help
 ```
 
-Write detailed diagnostics to a log file:
+Refresh all five supported indicators and export the normalized comparison:
 
-```powershell
-uv run manufacturing-monitor --log-file logs/manufacturing-monitor.log
+```bash
+uv run manufacturing-monitor \
+  --series IPMAN \
+  --series IPDMAN \
+  --series IPNMAN \
+  --series MCUMFN \
+  --series PCUOMFGOMFG \
+  --start-date 2017-01-01 \
+  --refresh \
+  --database data/manufacturing_monitor.db \
+  --csv-output data/processed/manufacturing_economic_monitor.csv
 ```
 
-Default behavior does not print diagnostic logs. Logging records request events,
-validation, saved-file locations, and failures, but not API keys or complete
-request URLs.
+Run the same selection from SQLite cache by omitting `--refresh`:
 
-## Dashboard
+```bash
+uv run manufacturing-monitor \
+  --series IPMAN \
+  --series IPDMAN \
+  --series IPNMAN \
+  --series MCUMFN \
+  --series PCUOMFGOMFG \
+  --start-date 2017-01-01 \
+  --database data/manufacturing_monitor.db
+```
 
-Run the Streamlit dashboard:
+## Interactive dashboard
 
-```powershell
+Start the Streamlit application:
+
+```bash
 uv run streamlit run src/manufacturing_monitor/dashboard.py
 ```
 
-The dashboard uses the same API, Pydantic validation, and workflow code as the
-CLI. It accepts a FRED API key through a password-style input and also allows the
-local environment key from `.env`.
+The dashboard provides supported-series selection, optional date controls, cached loading, live refresh, source status, latest-value cards, original-unit charts, normalized comparison, summary statistics, recent observations, missing-value information, and CSV download.
 
-## Validation
+Indicators with different original units are charted separately. The normalized comparison starts every selected series at 100.
 
-Incoming FRED responses are validated with Pydantic before the app uses them.
-The app rejects:
+## Generated evidence
+
+A live run can create:
+
+- one raw JSON response per selected FRED series
+- one combined processed JSON file
+- one SQLite database
+- one normalized CSV export
+- an optional operational log
+
+Generated data is intentionally excluded from Git because it can be recreated from FRED or loaded from SQLite.
+
+## Validation and failure handling
+
+Incoming responses are validated before analysis. The application rejects:
 
 - non-object top-level responses
-- missing or invalid `observations`
-- invalid observation dates
-- observation values that are neither numeric strings nor the known FRED `.`
-  placeholder
+- missing or invalid observation collections
+- invalid dates
+- unsupported series identifiers
+- invalid numeric values other than the documented FRED `.` missing-value placeholder
+- invalid or reversed date ranges
+- live refresh attempts without an API key
 
-Placeholder values are preserved in processed output but skipped when selecting
-the latest valid manufacturing index.
+Errors are presented through controlled application messages rather than uncontrolled tracebacks during normal CLI use.
+
+## Tests and coverage
+
+The tests use committed fixtures and mocks, so routine testing does not contact FRED:
+
+```bash
+uv run pytest
+```
+
+Run the same coverage requirement used by CI:
+
+```bash
+uv run pytest --cov=manufacturing_monitor --cov-fail-under=85
+```
+
+Final-project verification:
+
+- 72 tests passing
+- 86% total coverage
+- offline tests
+- Python 3.12, 3.13, and 3.14 CI matrix
+- wheel and source-distribution validation with Twine
+
+## Build the package
+
+```bash
+uv build
+uv run twine check dist/*
+```
+
+The project produces both a Python wheel and source distribution.
+
+## Security
+
+- Never commit `.env` or API tokens.
+- Never place an API key directly in committed commands or documentation.
+- Logging excludes API keys and complete authenticated request URLs.
+- Test fixtures use fake credentials and offline responses.
+- PyPI credentials are used only through secure password prompts.
+
+## Author
+
+Mohammadreza Ensafi
+Auburn University
