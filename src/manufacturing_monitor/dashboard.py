@@ -130,10 +130,24 @@ def _render_overview(result: ApplicationResult) -> None:
     with left:
         st.metric("Source status", result.source_status)
     with middle:
+        observation_dates = [
+            row.date for row in result.analysis.observation_rows
+        ]
+        displayed_start = result.requested_start_date or (
+            min(observation_dates) if observation_dates else None
+        )
+        displayed_end = result.requested_end_date or (
+            max(observation_dates) if observation_dates else None
+        )
         st.metric(
             "Date range",
-            _format_date(result.requested_start_date),
-            help=_format_date(result.requested_end_date),
+            _format_date(displayed_end),
+            delta=(
+                f"from {_format_date(displayed_start)}"
+                if displayed_start is not None
+                else None
+            ),
+            delta_color="off",
         )
     with right:
         st.metric("Database", str(result.database_path))
@@ -188,7 +202,7 @@ def _render_original_unit_charts(result: ApplicationResult) -> None:
             height=380,
             margin={"l": 24, "r": 24, "t": 48, "b": 24},
         )
-        st.plotly_chart(figure, use_container_width=True)
+        st.plotly_chart(figure, width="stretch")
 
 
 def _render_normalized_chart(result: ApplicationResult) -> None:
@@ -221,12 +235,12 @@ def _render_normalized_chart(result: ApplicationResult) -> None:
         height=420,
         margin={"l": 24, "r": 24, "t": 48, "b": 24},
     )
-    st.plotly_chart(figure, use_container_width=True)
+    st.plotly_chart(figure, width="stretch")
 
 
 def _render_summary_table(result: ApplicationResult) -> None:
     st.subheader("Summary statistics")
-    st.dataframe(_summary_rows(result), hide_index=True, use_container_width=True)
+    st.dataframe(_summary_rows(result), hide_index=True, width="stretch")
 
 
 def _render_recent_observations(result: ApplicationResult) -> None:
@@ -235,7 +249,7 @@ def _render_recent_observations(result: ApplicationResult) -> None:
     if not recent_rows:
         st.info("No observation rows are available.")
         return
-    st.dataframe(recent_rows, hide_index=True, use_container_width=True)
+    st.dataframe(recent_rows, hide_index=True, width="stretch")
 
 
 def _render_missing_information(result: ApplicationResult) -> None:
@@ -250,7 +264,7 @@ def _render_missing_information(result: ApplicationResult) -> None:
         }
         for series_result in result.series_results
     ]
-    st.dataframe(rows, hide_index=True, use_container_width=True)
+    st.dataframe(rows, hide_index=True, width="stretch")
 
 
 def _render_status_and_download(result: ApplicationResult) -> None:
@@ -276,7 +290,7 @@ def _render_status_and_download(result: ApplicationResult) -> None:
             data=csv_text,
             file_name=_csv_download_name(result),
             mime="text/csv",
-            use_container_width=True,
+            width="stretch",
         )
 
 
