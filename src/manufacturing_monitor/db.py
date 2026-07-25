@@ -225,6 +225,62 @@ def read_multiple_observations(
     return {series_id: tuple(grouped[series_id]) for series_id in series_ids}
 
 
+def read_supported_series_metadata(
+    db_path: Path | str = DEFAULT_DATABASE_PATH,
+    *,
+    series_ids: Sequence[str] | None = None,
+) -> dict[str, StoredSeriesMetadata]:
+    """Read catalog metadata for supported series from SQLite."""
+
+    if series_ids is not None:
+        if not series_ids:
+            return {}
+        for series_id in series_ids:
+            if not is_supported_series(series_id):
+                raise DatabaseError(f"Unsupported series ID '{series_id}'.")
+
+    try:
+        with _connect(_normalize_db_path(db_path)) as connection:
+            if series_ids is None:
+                rows = connection.execute(
+                    """
+                    SELECT series_id, display_name, units, frequency, updated_at_utc
+                    FROM supported_series
+                    ORDER BY series_id ASC
+                    """
+                ).fetchall()
+            else:
+                placeholders = ", ".join("?" for _ in series_ids)
+                rows = connection.execute(
+                    f"""
+                    SELECT series_id, display_name, units, frequency, updated_at_utc
+                    FROM supported_series
+                    WHERE series_id IN ({placeholders})
+                    ORDER BY series_id ASC
+                    """,
+                    tuple(series_ids),
+                ).fetchall()
+    except sqlite3.Error as exc:
+        raise DatabaseError("Could not read supported series metadata from SQLite.") from exc
+
+    metadata = {
+        row[0]: StoredSeriesMetadata(
+            series_id=row[0],
+            display_name=row[1],
+            units=row[2],
+            frequency=row[3],
+            updated_at_utc=row[4],
+        )
+        for row in rows
+    }
+    if series_ids is not None:
+        missing = [series_id for series_id in series_ids if series_id not in metadata]
+        if missing:
+            missing_text = ", ".join(missing)
+            raise DatabaseError(f"Missing metadata for supported series ID(s): {missing_text}.")
+    return metadata
+
+
 def cached_observations_exist(
     db_path: Path | str = DEFAULT_DATABASE_PATH,
     *,
