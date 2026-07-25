@@ -9,6 +9,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+from manufacturing_monitor import __version__
 from manufacturing_monitor.api import AppError
 from manufacturing_monitor.db import DatabaseError
 from manufacturing_monitor.logging_config import LoggingSetupError, configure_logging
@@ -130,6 +131,7 @@ def main(argv: Sequence[str] | None = None) -> None:
 
 def _print_project_info() -> None:
     print("Manufacturing Economic Monitor")
+    print(f"Version: {__version__}")
     print(f"Default series: {DEFAULT_SERIES_ID}")
     print("Supported series:")
     for series_id in supported_series_ids():

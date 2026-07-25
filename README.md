@@ -12,11 +12,7 @@ Install dependencies:
 uv sync
 ```
 
-Create a local `.env` file from the committed example:
-
-```env
-FRED_API_KEY=your_fred_api_key
-```
+Set `FRED_API_KEY` in a local `.env` file when you need to refresh live data.
 
 `.env` is ignored by Git. Do not commit API keys or downloaded live data.
 

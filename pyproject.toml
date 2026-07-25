@@ -1,9 +1,33 @@
 [project]
 name = "manufacturing-economic-monitor"
-version = "0.1.0"
-description = "CLI and dashboard for FRED manufacturing economic data."
+version = "0.2.0"
+description = "Offline-tested CLI and dashboard for FRED manufacturing economic indicators."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
+authors = [
+    { name = "Mohammadreza Ensafi", email = "mze0069@auburn.edu" },
+]
+keywords = [
+    "economics",
+    "fred",
+    "manufacturing",
+    "monitoring",
+    "streamlit",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Framework :: Streamlit",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
 dependencies = [
     "pydantic>=2.0",
     "plotly>=5.0",
@@ -11,6 +35,10 @@ dependencies = [
     "requests>=2.32",
     "streamlit>=1.36",
 ]
+
+[project.urls]
+Repository = "https://github.com/Mze0069/manufacturing-economic-monitor"
+Issues = "https://github.com/Mze0069/manufacturing-economic-monitor/issues"
 
 [project.scripts]
 manufacturing-monitor = "manufacturing_monitor.cli:main"
@@ -21,9 +49,48 @@ build-backend = "uv_build"
 
 [tool.uv.build-backend]
 module-name = "manufacturing_monitor"
+source-exclude = [
+    "/.env",
+    "/.env.*",
+    "/.git",
+    "/.pytest_cache",
+    "/.venv",
+    "/build",
+    "/data",
+    "/dist",
+    "/htmlcov",
+    "/logs",
+    "/*.csv",
+    "/*.db",
+    "/*.sqlite",
+    "/*.sqlite3",
+    "/*.egg-info",
+    "/.coverage",
+    "/coverage.xml",
+]
+wheel-exclude = [
+    "*.db",
+    "*.sqlite",
+    "*.sqlite3",
+    "*.csv",
+    "*.log",
+]
 
 [dependency-groups]
 dev = [
     "pytest>=8.0",
     "pytest-cov>=5.0",
+    "twine>=5.0",
 ]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.coverage.run]
+branch = true
+source = ["manufacturing_monitor"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

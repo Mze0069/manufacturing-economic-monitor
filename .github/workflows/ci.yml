@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test-build:
+    name: Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version:
+          - "3.12"
+          - "3.13"
+          - "3.14"
+
+    env:
+      UV_FROZEN: "1"
+      UV_NO_SYNC: "0"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v8.1.0
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Install project and development dependencies
+        run: uv sync --dev
+
+      - name: Run offline tests with coverage
+        run: uv run pytest --cov=manufacturing_monitor --cov-fail-under=85
+
+      - name: Build wheel and source distribution
+        run: uv build
+
+      - name: Verify built distributions
+        run: uv run twine check dist/*
