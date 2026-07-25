@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 import streamlit as st
 
 from manufacturing_monitor.api import AppError
+from manufacturing_monitor.db import DatabaseError
 from manufacturing_monitor.logging_config import configure_logging
 from manufacturing_monitor.models import FredDataValidationError
 from manufacturing_monitor.workflow import MonitorRequest, run_monitor
@@ -31,7 +32,7 @@ def main() -> None:
         try:
             with st.spinner("Fetching and validating FRED data..."):
                 result = run_monitor(MonitorRequest(api_key=api_key))
-        except (AppError, FredDataValidationError, ValueError) as exc:
+        except (AppError, DatabaseError, FredDataValidationError, ValueError) as exc:
             st.error(str(exc))
             return
 

@@ -4,9 +4,16 @@ from datetime import date
 from dataclasses import dataclass
 from decimal import Decimal
 import logging
+from pathlib import Path
 from typing import Any
 
 from manufacturing_monitor.api import fetch_observations
+from manufacturing_monitor.db import (
+    DEFAULT_DATABASE_PATH,
+    FETCH_SOURCE_LIVE,
+    ValidatedObservation,
+    store_validated_monitor_data,
+)
 from manufacturing_monitor.models import FredObservation, validate_fred_response
 
 
@@ -56,8 +63,44 @@ def build_monitor_result(payload: dict[str, Any]) -> MonitorResult:
     )
 
 
-def run_monitor(request: MonitorRequest) -> MonitorResult:
-    return build_monitor_result(fetch_monitor_data(request))
+def run_monitor(
+    request: MonitorRequest,
+    *,
+    db_path: Path | str = DEFAULT_DATABASE_PATH,
+    source_kind: str = FETCH_SOURCE_LIVE,
+) -> MonitorResult:
+    """Fetch, validate, and persist one series run."""
+
+    result = build_monitor_result(fetch_monitor_data(request))
+    store_validated_monitor_result(
+        request=request,
+        result=result,
+        db_path=db_path,
+        source_kind=source_kind,
+    )
+    return result
+
+
+def store_validated_monitor_result(
+    request: MonitorRequest,
+    result: MonitorResult,
+    *,
+    db_path: Path | str = DEFAULT_DATABASE_PATH,
+    source_kind: str = FETCH_SOURCE_LIVE,
+) -> None:
+    """Store already validated FRED data in SQLite."""
+
+    observations = tuple(
+        ValidatedObservation(date=item.date, value=item.value) for item in result.observations
+    )
+    store_validated_monitor_data(
+        db_path,
+        series_id=request.series_id,
+        observations=observations,
+        requested_start_date=request.observation_start,
+        requested_end_date=request.observation_end,
+        source_kind=source_kind,
+    )
 
 
 def latest_valid_observation(

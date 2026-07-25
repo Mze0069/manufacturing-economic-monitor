@@ -9,6 +9,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from manufacturing_monitor.api import AppError
+from manufacturing_monitor.db import DatabaseError
 from manufacturing_monitor.logging_config import LoggingSetupError, configure_logging
 from manufacturing_monitor.models import FredDataValidationError
 from manufacturing_monitor.series_catalog import get_supported_series
@@ -19,9 +20,8 @@ from manufacturing_monitor.output import (
 )
 from manufacturing_monitor.workflow import (
     MonitorRequest,
-    build_monitor_result,
-    fetch_monitor_data,
     format_summary,
+    run_monitor,
 )
 
 
@@ -81,13 +81,12 @@ def main(argv: Sequence[str] | None = None) -> None:
 
     try:
         request = MonitorRequest(api_key=api_key, series_id=DEFAULT_SERIES_ID)
-        raw_payload = fetch_monitor_data(request)
-        write_raw_json(raw_payload, RAW_OUTPUT_PATH)
+        result = run_monitor(request)
+        write_raw_json(result.raw_payload, RAW_OUTPUT_PATH)
         logger.info("Saved raw FRED response to %s.", RAW_OUTPUT_PATH)
-        result = build_monitor_result(raw_payload)
         write_processed_json(result.observations, PROCESSED_OUTPUT_PATH)
         logger.info("Saved processed FRED observations to %s.", PROCESSED_OUTPUT_PATH)
-    except (AppError, FredDataValidationError, OutputWriteError, ValueError) as exc:
+    except (AppError, DatabaseError, FredDataValidationError, OutputWriteError, ValueError) as exc:
         logger.warning("Monitor run failed.")
         raise SystemExit(str(exc)) from exc
 
