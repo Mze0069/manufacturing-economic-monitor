@@ -17,7 +17,6 @@ keywords = [
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Environment :: Console",
-    "Framework :: Streamlit",
     "Intended Audience :: Financial and Insurance Industry",
     "Intended Audience :: Science/Research",
     "Operating System :: OS Independent",
