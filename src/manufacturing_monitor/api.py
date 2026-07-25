@@ -1,10 +1,12 @@
 from __future__ import annotations
 
+from datetime import date
 import logging
 from typing import Any
 
 import requests
 
+from manufacturing_monitor.models import FredRequestValidationError, validate_fred_request
 
 FRED_API_URL = "https://api.stlouisfed.org/fred/series/observations"
 DEFAULT_TIMEOUT = 30.0
@@ -19,25 +21,36 @@ def fetch_observations(
     api_key: str,
     *,
     series_id: str = "IPMAN",
+    observation_start: date | str | None = None,
+    observation_end: date | str | None = None,
     timeout: float = DEFAULT_TIMEOUT,
 ) -> dict[str, Any]:
-    """Fetch FRED observations for one series.
-
-    The API key is sent only as a request parameter. Do not log params or the
-    complete URL because those values include a secret.
-    """
+    """Fetch FRED observations for one supported series."""
 
     if not api_key.strip():
         raise AppError("FRED_API_KEY is required.")
 
-    params = {
-        "series_id": series_id,
+    try:
+        request = validate_fred_request(
+            series_id=series_id,
+            observation_start=observation_start,
+            observation_end=observation_end,
+        )
+    except FredRequestValidationError as exc:
+        raise AppError(str(exc)) from exc
+
+    params: dict[str, str] = {
+        "series_id": request.series_id,
         "api_key": api_key,
         "file_type": "json",
     }
+    if request.observation_start is not None:
+        params["observation_start"] = request.observation_start.isoformat()
+    if request.observation_end is not None:
+        params["observation_end"] = request.observation_end.isoformat()
 
     try:
-        logger.info("Requesting FRED observations for series %s.", series_id)
+        logger.info("Requesting FRED observations.")
         logger.debug("Using FRED request timeout of %.1f seconds.", timeout)
         response = requests.get(FRED_API_URL, params=params, timeout=timeout)
         response.raise_for_status()
@@ -49,8 +62,8 @@ def fetch_observations(
         logger.warning("FRED request failed with HTTP status %s.", status)
         raise AppError(f"FRED request failed with HTTP status {status}.") from exc
     except requests.RequestException as exc:
-        logger.warning("FRED request failed: %s", exc)
-        raise AppError(f"Could not connect to FRED: {exc}") from exc
+        logger.warning("FRED request failed due to a connection problem.")
+        raise AppError("Could not connect to FRED. Check your network and try again.") from exc
 
     try:
         data = response.json()

@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 from manufacturing_monitor.api import AppError
 from manufacturing_monitor.logging_config import LoggingSetupError, configure_logging
 from manufacturing_monitor.models import FredDataValidationError
+from manufacturing_monitor.series_catalog import get_supported_series
 from manufacturing_monitor.output import (
     OutputWriteError,
     write_processed_json,
@@ -27,6 +28,7 @@ from manufacturing_monitor.workflow import (
 RAW_OUTPUT_PATH = Path("data/raw/ipman_observations_raw.json")
 PROCESSED_OUTPUT_PATH = Path("data/processed/ipman_observations_processed.json")
 API_KEY_NAME = "FRED_API_KEY"
+DEFAULT_SERIES_ID = "IPMAN"
 logger = logging.getLogger(__name__)
 
 
@@ -65,8 +67,9 @@ def main(argv: Sequence[str] | None = None) -> None:
         raise SystemExit(str(exc)) from exc
 
     if args.project_info:
+        series = get_supported_series(DEFAULT_SERIES_ID)
         print("Manufacturing Economic Monitor")
-        print("Series: FRED IPMAN")
+        print(f"Series: {series.display_name} ({series.series_id})")
         print("Network: not contacted")
         return
 
@@ -77,7 +80,7 @@ def main(argv: Sequence[str] | None = None) -> None:
         )
 
     try:
-        request = MonitorRequest(api_key=api_key)
+        request = MonitorRequest(api_key=api_key, series_id=DEFAULT_SERIES_ID)
         raw_payload = fetch_monitor_data(request)
         write_raw_json(raw_payload, RAW_OUTPUT_PATH)
         logger.info("Saved raw FRED response to %s.", RAW_OUTPUT_PATH)
@@ -85,7 +88,7 @@ def main(argv: Sequence[str] | None = None) -> None:
         write_processed_json(result.observations, PROCESSED_OUTPUT_PATH)
         logger.info("Saved processed FRED observations to %s.", PROCESSED_OUTPUT_PATH)
     except (AppError, FredDataValidationError, OutputWriteError, ValueError) as exc:
-        logger.warning("Monitor run failed: %s", exc)
+        logger.warning("Monitor run failed.")
         raise SystemExit(str(exc)) from exc
 
     print(format_summary(result))

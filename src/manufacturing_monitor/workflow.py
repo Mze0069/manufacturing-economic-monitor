@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import date
 from dataclasses import dataclass
 from decimal import Decimal
 import logging
@@ -16,6 +17,8 @@ logger = logging.getLogger(__name__)
 class MonitorRequest:
     api_key: str
     series_id: str = "IPMAN"
+    observation_start: date | str | None = None
+    observation_end: date | str | None = None
 
 
 @dataclass(frozen=True)
@@ -32,7 +35,12 @@ class MonitorResult:
 
 
 def fetch_monitor_data(request: MonitorRequest) -> dict[str, Any]:
-    return fetch_observations(request.api_key, series_id=request.series_id)
+    return fetch_observations(
+        request.api_key,
+        series_id=request.series_id,
+        observation_start=request.observation_start,
+        observation_end=request.observation_end,
+    )
 
 
 def build_monitor_result(payload: dict[str, Any]) -> MonitorResult:

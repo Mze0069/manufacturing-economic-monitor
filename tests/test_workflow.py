@@ -62,7 +62,33 @@ def test_fetch_monitor_data_uses_api_boundary(monkeypatch):
     fetch = Mock(return_value={"observations": []})
     monkeypatch.setattr("manufacturing_monitor.workflow.fetch_observations", fetch)
 
-    payload = fetch_monitor_data(MonitorRequest(api_key="test-key"))
+    payload = fetch_monitor_data(
+        MonitorRequest(
+            api_key="test-key",
+            series_id="IPDMAN",
+            observation_start="2026-01-01",
+            observation_end="2026-06-01",
+        )
+    )
 
     assert payload == {"observations": []}
-    fetch.assert_called_once_with("test-key", series_id="IPMAN")
+    fetch.assert_called_once_with(
+        "test-key",
+        series_id="IPDMAN",
+        observation_start="2026-01-01",
+        observation_end="2026-06-01",
+    )
+
+
+def test_monitor_request_defaults_preserve_backwards_compatibility(monkeypatch):
+    fetch = Mock(return_value={"observations": []})
+    monkeypatch.setattr("manufacturing_monitor.workflow.fetch_observations", fetch)
+
+    fetch_monitor_data(MonitorRequest(api_key="test-key"))
+
+    fetch.assert_called_once_with(
+        "test-key",
+        series_id="IPMAN",
+        observation_start=None,
+        observation_end=None,
+    )
