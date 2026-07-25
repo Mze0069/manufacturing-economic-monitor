@@ -1,0 +1,10 @@
+{
+  "observations": [
+    {
+      "realtime_start": "2026-07-01",
+      "realtime_end": "2026-07-01",
+      "date": "2026-01-01",
+      "value": "not-a-number"
+    }
+  ]
+}

@@ -1,36 +1,105 @@
 # Manufacturing Economic Monitor
 
-A small command-line workflow for fetching the FRED Industrial Production:
-Manufacturing (`IPMAN`) series, preserving the raw API response, creating a
-compact processed dataset, and printing the latest available manufacturing
-index.
+A small CLI and Streamlit dashboard for fetching the FRED Industrial Production:
+Manufacturing (`IPMAN`) series, validating the response, saving raw and processed
+JSON files, and showing the latest valid manufacturing index.
 
 ## Setup
 
-1. Install `uv`.
-2. Get a FRED API key from the Federal Reserve Economic Data site.
-3. Create a local `.env` file in the project root:
+Install dependencies:
+
+```powershell
+uv sync
+```
+
+Create a local `.env` file from the committed example:
 
 ```env
 FRED_API_KEY=your_fred_api_key
 ```
 
-4. Run the project:
+`.env` is ignored by Git. Do not commit API keys or downloaded live data.
+
+## Tests
+
+Run the fixture-backed test suite:
+
+```powershell
+uv run pytest
+```
+
+Run tests with coverage:
+
+```powershell
+uv run pytest --cov=manufacturing_monitor
+```
+
+Tests use committed files in `tests/fixtures/` and mocks/monkeypatching for
+external behavior. Routine tests do not contact the live FRED API.
+
+## CLI
+
+Run the installed command:
+
+```powershell
+uv run manufacturing-monitor
+```
+
+The compatibility wrapper still works:
 
 ```powershell
 uv run main.py
 ```
 
-The script writes the complete API response to
-`data/raw/ipman_observations_raw.json` and processed date/value observations to
-`data/processed/ipman_observations_processed.json`.
+Default output files are:
 
-## FRED API
+- raw response: `data/raw/ipman_observations_raw.json`
+- processed observations: `data/processed/ipman_observations_processed.json`
 
-Documentation: https://fred.stlouisfed.org/docs/api/fred/series_observations.html
+Run without contacting FRED:
 
-Example request:
-
-```text
-https://api.stlouisfed.org/fred/series/observations?series_id=IPMAN&api_key=YOUR_API_KEY&file_type=json
+```powershell
+uv run manufacturing-monitor --project-info
 ```
+
+Enable console diagnostics:
+
+```powershell
+uv run manufacturing-monitor --verbose
+```
+
+Write detailed diagnostics to a log file:
+
+```powershell
+uv run manufacturing-monitor --log-file logs/manufacturing-monitor.log
+```
+
+Default behavior does not print diagnostic logs. Logging records request events,
+validation, saved-file locations, and failures, but not API keys or complete
+request URLs.
+
+## Dashboard
+
+Run the Streamlit dashboard:
+
+```powershell
+uv run streamlit run src/manufacturing_monitor/dashboard.py
+```
+
+The dashboard uses the same API, Pydantic validation, and workflow code as the
+CLI. It accepts a FRED API key through a password-style input and also allows the
+local environment key from `.env`.
+
+## Validation
+
+Incoming FRED responses are validated with Pydantic before the app uses them.
+The app rejects:
+
+- non-object top-level responses
+- missing or invalid `observations`
+- invalid observation dates
+- observation values that are neither numeric strings nor the known FRED `.`
+  placeholder
+
+Placeholder values are preserved in processed output but skipped when selecting
+the latest valid manufacturing index.
