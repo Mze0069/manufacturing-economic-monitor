@@ -22,15 +22,12 @@ ENV/
 !.env.example
 
 # Downloaded FRED data
-data/
 
 # Logs
 logs/
 *.log
 
 # Local databases and generated exports
-*.db
 *.sqlite
 *.sqlite3
 exports/
-*.csv

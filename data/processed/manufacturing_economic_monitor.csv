@@ -1,0 +1,571 @@
+series_id,series_name,units,date,raw_value,is_missing,normalized_value
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-01-01,99.1403,false,100
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-02-01,98.9061,false,99.76376912315173546983416431
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-03-01,98.7163,false,99.57232326309280887792350840
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-04-01,100.3701,false,101.2404642713407161366265787
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-05-01,99.8865,false,100.7526707100946839983336746
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-06-01,99.889,false,100.7551923889679575308930879
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-07-01,99.0533,false,99.91224557521008106693241800
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-08-01,99.4839,false,100.3465795443427143149657606
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-09-01,100.6216,false,101.4941451659920335121035543
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-10-01,101.2205,false,102.0982385568734409720365986
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-11-01,101.3754,false,102.2544817798614690494178452
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-12-01,101.3369,false,102.2156479252130566480028808
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-01-01,101.4459,false,102.3255931240877826675932996
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-02-01,102.567,false,103.4564147980185656085365891
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-03-01,102.9063,false,103.7986570546992494475001589
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-04-01,103.7057,false,104.6049890912171942186981480
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-05-01,102.5113,false,103.4002317927220313031128613
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-06-01,103.7318,false,104.6313154186541698986184226
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-07-01,102.9217,false,103.8141905965586144080661446
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-08-01,103.7415,false,104.6410995326824712049489461
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-09-01,103.7964,false,104.6964756007395579799536616
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-10-01,103.6114,false,104.5098713641173165705570792
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-11-01,103.0399,false,103.9334155736869870274752043
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-12-01,103.5443,false,104.4421895031586549566624269
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-01-01,101.8218,false,102.7047527594731910232266798
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-02-01,101.2835,false,102.1617848644799339925338132
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-03-01,100.9792,false,101.8548461120250796094020292
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-04-01,100.2768,false,101.1463552157901479015092752
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-05-01,100.3047,false,101.1744971520158805248723274
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-06-01,100.5504,false,101.4223277516812033048114642
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-07-01,99.7027,false,100.5672768793316138845656106
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-08-01,100.3221,false,101.1920480369738643114858438
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-09-01,99.134,false,99.99364536923935069795027854
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-10-01,97.8024,false,98.65049833417893631550439125
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-11-01,99.6267,false,100.4906178415840984947594470
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-12-01,99.4598,false,100.3222705600043574610930167
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-01-01,98.7351,false,99.59128628821982584277029624
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-02-01,99.085,false,99.94422046332318945978577834
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-03-01,91.7963,false,92.59231614187167075346756062
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-04-01,72.4491,false,73.07734594307259510007534776
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-05-01,77.8301,false,78.50500754990654658095648288
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-06-01,87.7798,false,88.54098686407041334351419150
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-07-01,93.0104,false,93.81694426988822910562102394
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-08-01,93.905,false,94.71930183790042999668147060
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-09-01,93.9252,false,94.73967700319648013976152987
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-10-01,94.7215,false,95.54288215791156573058584652
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-11-01,95.3641,false,96.19105449549779453965743497
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-12-01,96.1928,false,97.02694060841050511245174767
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-01-01,97.2194,false,98.06244282093154852264921530
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-02-01,93.8219,false,94.63548123215281777440657331
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-03-01,96.1015,false,96.93484889595855570338197484
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-04-01,95.127,false,95.95189847115653271172267988
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-05-01,96.1336,false,96.96722725269138786144484130
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-06-01,95.9943,false,96.82671930587258662723433357
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-07-01,97.52,false,98.36564948865395807759306760
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-08-01,97.1147,false,97.95683490971885297906098731
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-09-01,95.9524,false,96.78445596795652222153856706
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-10-01,97.6726,false,98.51957276707857450501965397
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-11-01,98.682,false,99.53772582895149601120835826
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-12-01,98.9047,false,99.76235698298270229160089288
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-01-01,98.0728,false,98.92324312111220159713053118
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-02-01,98.7534,false,99.60974497757218810110520142
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-03-01,99.6522,false,100.5163389660914885268654624
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-04-01,100.2516,false,101.1209366927475506933103894
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-05-01,99.7356,false,100.6004621733038935730474893
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-06-01,99.4287,false,100.2909008748208347160539155
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-07-01,100.0406,false,100.9081069958432645452959089
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-08-01,100.0955,false,100.9634830639003513203006245
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-09-01,100.294,false,101.1637043664382698055180386
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-10-01,100.9131,false,101.7881729226157274085311422
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-11-01,99.4472,false,100.3095612984830588569935738
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-12-01,98.5727,false,99.42747802861197716771080983
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-01-01,99.5756,false,100.4390747254143874892450396
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-02-01,99.4581,false,100.3205558183705314589526156
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-03-01,98.5799,false,99.43474046376700494148192007
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-04-01,99.7386,false,100.6034881879518218121187852
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-05-01,99.8394,false,100.7051622801222106449143285
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-06-01,99.1397,false,99.99939479707041435218574081
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-07-01,99.6723,false,100.5366132642326077286431451
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-08-01,99.0946,false,99.95390371019655982481392532
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-09-01,98.8213,false,99.67823377577029724541886599
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-10-01,97.725,false,98.57242715626238774746495623
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-11-01,98.7652,false,99.62164730185403917478563208
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-12-01,98.5143,false,99.36857161013230744712291571
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-01-01,96.8103,false,97.64979529010906765462682683
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-02-01,98.1581,false,99.00928280426829452805771215
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-03-01,98.268,false,99.12013580753739901936951976
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-04-01,97.6895,false,98.53661931626190358512128771
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-05-01,98.0371,false,98.88723354680185555218210960
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-06-01,97.7164,false,98.56375258093832679546057456
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-07-01,96.3556,false,97.19115233663807755272074020
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-08-01,97.4213,false,98.26609360673711901214743147
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-09-01,96.2866,false,97.12155399973572805408093379
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-10-01,95.104,false,95.92869902552241621217607774
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-11-01,95.5874,false,96.41629085245858646786422877
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-12-01,96.0089,false,96.84144591049250405738130710
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-01-01,96.1163,false,96.94977723488833501613370143
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-02-01,97.6761,false,98.52310311750115745060283255
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-03-01,98.1631,false,99.01432616201484159317653870
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-04-01,98.1335,false,98.98446948415528296767308552
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-05-01,98.5999,false,99.45491389475319320195722627
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-06-01,98.5758,false,99.43060491041483634808448229
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-07-01,99.29,false,100.1509981309316191296576670
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-08-01,99.3948,false,100.2567069092992456145482715
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-09-01,99.3701,false,100.2317927220313031128612683
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-10-01,98.6555,false,99.51099603289479656607857753
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-11-01,98.4614,false,99.31521288517383949816573079
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-12-01,98.4655,false,99.31934843852600809156316856
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-01-01,99.4195,false,100.2816210965671881162352747
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-02-01,99.8729,false,100.7389527770240759812104664
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-03-01,99.8098,false,100.6753056022626520194108753
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-04-01,100.8622,false,101.7368315407558782856214879
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-05-01,101.8498,false,102.7329955628538545878921085
+IPDMAN,Industrial Production: Durable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-06-01,101.6971,false,102.5789714172743072191631456
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-01-01,99.5441,false,100
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-02-01,99.4265,false,99.88186140615064077127624842
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-03-01,99.1019,false,99.55577477720929718587038308
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-04-01,100.3189,false,100.7783484907694177756391388
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-05-01,100.1472,false,100.6058621254298346160144097
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-06-01,100.1949,false,100.6537805856901614460324620
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-07-01,99.8077,false,100.2648072562813868426154840
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-08-01,99.6412,false,100.0975447063160950774581316
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-09-01,99.6858,false,100.1423489689494404992360170
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-10-01,100.7464,false,101.2078063893289506861782868
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-11-01,100.8253,false,101.2870677418350258830005997
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-12-01,100.5601,false,101.0206531577461647651643844
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-01-01,100.2412,false,100.7002926341189482852323744
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-02-01,101.1146,false,101.5776927010239682713490805
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-03-01,101.06,false,101.5228426395939086294416244
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-04-01,101.8116,false,102.2778848771549494143801591
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-05-01,100.9887,false,101.4512160941733362399177852
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-06-01,101.7103,false,102.1761209353442343644676078
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-07-01,101.7704,false,102.2364961861124868274463278
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-08-01,102.0029,false,102.4700610081360924454588469
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-09-01,102.0449,false,102.5122533630822921700030439
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-10-01,101.6625,false,102.1281020170959403922482598
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-11-01,101.403,false,101.8674135383212063798858998
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-12-01,101.769,false,102.2350897742809468366281879
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-01-01,100.8777,false,101.3397077275298083964795503
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-02-01,100.2878,false,100.7471060565116365510361739
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-03-01,100.0465,false,100.5047009315469224193096326
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-04-01,99.4028,false,99.85805286300242806956916583
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-05-01,99.3987,false,99.85393408549577523931604183
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-06-01,99.7717,false,100.2286423806132156501490294
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-07-01,99.0618,false,99.51549112403447316315080452
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-08-01,99.7154,false,100.1720845333877145908195463
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-09-01,98.9031,false,99.35606429713061848969451730
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-10-01,98.0889,false,98.53813535910214668674486986
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-11-01,98.9065,false,99.35947986872150132453857135
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-12-01,98.9568,false,99.41001023666897385179031203
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-01-01,98.6069,false,99.05850773677194328945663279
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-02-01,98.8309,false,99.28353362981834182035901676
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-03-01,94.3639,false,94.79607530732609968847977931
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-04-01,79.8587,false,80.22444323671618910613486887
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-05-01,83.4204,false,83.80245539414189288968406967
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-06-01,89.9764,false,90.38848108526773560663062904
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-07-01,93.2857,false,93.71293728106437247410946505
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-08-01,94.6243,false,95.05766790799253798065380068
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-09-01,94.5995,false,95.03275432697668671473246531
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-10-01,95.5707,false,96.00840230611357177371637294
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-11-01,96.0944,false,96.53450078909749548190199118
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-12-01,96.8555,false,97.29908653551541477596361814
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-01-01,97.7998,false,98.24771131588913858279898055
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-02-01,93.7406,false,94.16992066832690234780363678
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-03-01,96.6782,false,97.12097452284967165306632940
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-04-01,96.8939,false,97.33766240289479738126116967
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-05-01,97.9551,false,98.40372257120211042141121372
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-06-01,97.9706,false,98.41929355933701746261204833
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-07-01,98.8487,false,99.30141515167649313218965263
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-08-01,98.2683,false,98.71835698951519979586936845
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-09-01,97.0654,false,97.50994785225844625648330740
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-10-01,98.4333,false,98.88411266966098442800728521
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-11-01,99.0146,false,99.46807495371398204413923075
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-12-01,98.897,false,99.34993635986462281541547917
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-01-01,97.9535,false,98.40211524339463614619048241
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-02-01,98.5223,false,98.97352027895174098716046456
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-03-01,98.9704,false,99.42367252303250519116652820
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-04-01,98.9204,false,99.37344352904893409051867464
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-05-01,98.4799,false,98.93092609205367269381108474
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-06-01,97.9383,false,98.38684562922363053159353493
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-07-01,98.0214,false,98.47032621722432570087026755
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-08-01,98.0019,false,98.45073690957073297161760466
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-09-01,97.9936,false,98.44239889656946016891006097
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-10-01,98.239,false,98.68892279904082713088972626
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-11-01,97.4555,false,97.90183446331826798373786091
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-12-01,95.7545,false,96.19304408799717913969788265
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-01-01,97.4332,false,97.87943233200159527284891822
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-02-01,97.4821,false,97.92855628811752780928251900
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-03-01,96.8552,false,97.29878516155151334935973101
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-04-01,97.7738,false,98.22159223901768161046209670
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-05-01,97.5956,false,98.04257610446023420775314660
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-06-01,96.9217,false,97.36558972354966291322137625
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-07-01,97.3075,false,97.75315664112689752582021436
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-08-01,97.2654,false,97.71086382819273065907472166
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-09-01,97.3037,false,97.74933923758414612217097749
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-10-01,96.786,false,97.22926823387825094606310168
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-11-01,97.2483,false,97.69368551225034934265315574
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-12-01,97.2445,false,97.68986810870759793900391887
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-01-01,95.7457,false,96.18420378505607062598386042
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-02-01,96.9553,false,97.39934360750662269285673385
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-03-01,97.0896,false,97.53425868534649466919686852
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-04-01,96.564,false,97.00625150059119525918663185
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-05-01,97.1046,false,97.54932738354156599939122459
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-06-01,96.9264,false,97.37031124898411859668227449
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-07-01,96.1663,false,96.60673008244587072463360460
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-08-01,96.6244,false,97.06692812532334914876923896
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-09-01,96.0864,false,96.52646415006012410579833461
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-10-01,95.4449,false,95.88202615725090688448637338
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-11-01,95.7246,false,96.16300714959500362151046622
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-12-01,96.1524,false,96.59276642211843795865350131
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-01-01,95.7673,false,96.20590271045697334146373316
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-02-01,96.9554,false,97.39944406549458983505802956
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-03-01,97.3898,false,97.83583356522385555748658132
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-04-01,97.3314,false,97.77716610025104451192988836
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-05-01,97.2482,false,97.69358505426238220045186003
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-06-01,97.5794,false,98.02630191040955717114324204
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-07-01,98.0693,false,98.51844559346058681529091126
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-08-01,98.084,false,98.53321291769175671888138021
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-09-01,98.0473,false,98.49634483610781553100585570
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-10-01,97.2128,false,97.65802292652201386119317971
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-11-01,97.1299,false,97.57474325449725297631903850
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-12-01,96.9857,false,97.42988283584863392205062882
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-01-01,97.0786,false,97.52320830667010902705434074
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-02-01,97.7645,false,98.21224964613673738574159594
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-03-01,97.876,false,98.32426030272010094018630938
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-04-01,98.5997,false,99.05127476163830905096334188
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-05-01,98.6976,false,99.14962313185814126603183915
+IPMAN,Industrial Production: Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-06-01,98.6995,false,99.15153183362951696785645759
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-01-01,99.9945,false,100
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-02-01,100.008,false,100.0135007425408397461860402
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-03-01,99.5319,false,99.53737455560055803069168804
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-04-01,100.2563,false,100.2618143997919885593707654
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-05-01,100.4374,false,100.4429243608398461915405347
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-06-01,100.5364,false,100.5419298061393376635714964
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-07-01,100.6573,false,100.6628364560050802794153678
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-08-01,99.8184,false,99.82389031396726819975098630
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-09-01,98.638,false,98.64342538839636179989899444
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-10-01,100.2149,false,100.2204121226667466710669087
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-11-01,100.2105,false,100.2160118806534359389766437
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2017-12-01,99.6964,false,99.70188360359819790088454865
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-01-01,98.9085,false,98.91394026671466930681187465
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-02-01,99.5125,false,99.51797348854186980283915615
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-03-01,99.0308,false,99.03624699358464715559355765
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-04-01,99.7322,false,99.73768557270649885743715904
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-05-01,99.3116,false,99.31706243843411387626319448
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-06-01,99.4999,false,99.50537279550375270639885194
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-07-01,100.4904,false,100.4959272760001800099005445
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-08-01,100.0991,false,100.1046057533164324037822080
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-09-01,100.129,false,100.1345073979068848786683268
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-10-01,99.5387,false,99.54417492962112916210391572
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-11-01,99.612,false,99.61747896134287385806219342
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2018-12-01,99.8327,false,99.83819110051052807904434744
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-01-01,99.8224,false,99.82789053397936886528759082
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-02-01,99.1796,false,99.18505517803479191355524554
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-03-01,99.0057,false,99.01114561300871547935136433
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-04-01,98.425,false,98.43041367275200136007480411
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-05-01,98.3877,false,98.39311162113916265394596703
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-06-01,98.8945,false,98.89993949667231697743375886
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-07-01,98.3299,false,98.33530844196430803694203181
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-08-01,99.0193,false,99.02474636104985774217581967
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-09-01,98.6065,false,98.61192365580106905879823390
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-10-01,98.3453,false,98.35070928901089559925795919
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-11-01,98.0805,false,98.08589472420983154073474041
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2019-12-01,98.3657,false,98.37111041107260899349464221
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-01-01,98.4241,false,98.42951362324927871032906810
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-02-01,98.5115,false,98.51691843051367825230387671
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-03-01,97.1518,false,97.15714364290035951977358755
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-04-01,88.0105,false,88.01534084374640605233287831
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-05-01,89.5503,false,89.55522553740455725064878568
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-06-01,92.314,false,92.31907754926520958652725900
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-07-01,93.4759,false,93.48104145728015040827245499
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-08-01,95.3148,false,95.32004260234312887208796484
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-09-01,95.2481,false,95.25333893364135027426508458
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-10-01,96.4189,false,96.42420333118321507682922561
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-11-01,96.8214,false,96.82672546990084454645005475
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2020-12-01,97.5177,false,97.52306376850726789973448540
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-01-01,98.3819,false,98.38731130212161668891789048
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-02-01,93.6248,false,93.62994964723059768287255799
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-03-01,97.2677,false,97.27305001775097630369670332
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-04-01,98.746,false,98.75143132872307976938731630
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-05-01,99.869,false,99.87449309712034161878903340
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-06-01,100.0488,false,100.0543029866642665346594063
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-07-01,100.2577,false,100.2632144767962237923085770
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-08-01,99.4964,false,99.50187260299316462405432299
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-09-01,98.2499,false,98.25530404172229472620994155
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-10-01,99.2535,false,99.25895924275835170934401392
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-11-01,99.3922,false,99.39766687167794228682577542
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2021-12-01,98.9217,false,98.92714099275460150308266955
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-01-01,97.8592,false,97.86458255204036221992209572
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-02-01,98.309,false,98.31440729240108205951327323
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-03-01,98.2927,false,98.29810639585177184745160984
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-04-01,97.5766,false,97.58196700818545019976098685
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-05-01,97.2076,false,97.21294671206916380400922051
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-06-01,96.4231,false,96.42840356219592077564266035
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-07-01,95.966,false,95.97127842031311722144717959
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-08-01,95.8673,false,95.87257299151453329933146323
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-09-01,95.6455,false,95.65076079184355139532674297
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-10-01,95.5067,false,95.51195315742365830120656636
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-11-01,95.4209,false,95.42614843816409902544639955
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2022-12-01,92.8683,false,92.87340803744205931326222942
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-01-01,95.2434,false,95.24863867512713199225957428
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-02-01,95.4638,false,95.46905079779387866332648296
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-03-01,95.0973,false,95.10253063918515518353509443
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-04-01,95.7658,false,95.77106740870747891134012371
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-05-01,95.2962,false,95.30144157928686077734275385
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-06-01,94.6488,false,94.65400597032836806024331338
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-07-01,94.8808,false,94.88601873103020666136637515
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-08-01,95.4023,false,95.40754741510783093070118857
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-09-01,95.7689,false,95.77416757921685692713099220
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-10-01,95.8613,false,95.86657266149638230102655646
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-11-01,95.7129,false,95.71816449904744760961852902
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2023-12-01,95.9704,false,95.97567866232642795353744456
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-01-01,94.6876,false,94.69280810444574451594837716
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-02-01,95.7511,false,95.75636660016300896549310212
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-03-01,95.9109,false,95.91617538964643055368045242
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-04-01,95.4406,false,95.44584952172369480321417678
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-05-01,96.1867,false,96.19199055948077144242933361
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-06-01,96.1598,false,96.16508907989939446669566826
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-07-01,96.04,false,96.04528249053697953387436309
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-08-01,95.8477,false,95.85297191345524003820210112
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-09-01,95.9468,false,95.95207736425503402687147793
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-10-01,95.883,false,95.88827385506202841156263594
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-11-01,95.9436,false,95.94887718824535349444219432
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2024-12-01,96.3771,false,96.38240103205676312197170844
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-01-01,95.4621,false,95.46735070428873588047342604
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-02-01,96.2508,false,96.25609408517468460765342094
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-03-01,96.6279,false,96.63321482681547485111681142
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-04-01,96.5384,false,96.54370990404472245973528544
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-05-01,95.8641,false,95.86937281550485276690217962
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-06-01,96.5779,false,96.58321207666421653190925501
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-07-01,96.8267,false,96.83202576141687792828605573
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-08-01,96.7442,false,96.74952122366730170159358765
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-09-01,96.6947,false,96.70001850101755596557810680
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-10-01,95.7303,false,95.73556545610008550470275865
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-11-01,95.7672,false,95.77246748571171414427793529
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2025-12-01,95.4627,false,95.46795073729055098030391672
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-01-01,94.6256,false,94.63080469425818420013100721
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-02-01,95.5634,false,95.56865627609518523518793534
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-03-01,95.8638,false,95.86907279900394521698693428
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-04-01,96.2323,false,96.23759306761871902954662506
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-05-01,95.3672,false,95.37244548450164759061748396
+IPNMAN,Industrial Production: Nondurable Manufacturing (NAICS),"Index 2017=100, Seasonally Adjusted",2026-06-01,95.5366,false,95.54185480201411077609268510
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-01-01,76.3856,false,100
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-02-01,76.3458,false,99.94789593850149766448126348
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-03-01,76.16,false,99.70465637502356465092897091
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-04-01,77.1705,false,101.0275496952305146519762887
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-05-01,77.1223,false,100.9644487966318258938857586
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-06-01,77.2492,false,101.1305795856810707777382124
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-07-01,77.0437,false,100.8615498209086529398211181
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-08-01,77.0086,false,100.8155987515971596740746947
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-09-01,77.1335,false,100.9791112460987411239814834
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-10-01,78.0404,false,102.1663769087367252466433464
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-11-01,78.1803,false,102.3495266123457824511426237
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2017-12-01,78.0446,false,102.1718753272868184579292432
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-01-01,77.8575,false,101.9269338723529042123122683
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-02-01,78.5845,false,102.8786839404285624515615509
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-03-01,78.5797,false,102.8724000335141702100919545
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-04-01,79.1923,false,103.6743836534634800276491904
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-05-01,78.5703,false,102.8600940491401520705473283
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-06-01,79.1408,false,103.6069625688611466035483128
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-07-01,79.1885,false,103.6694088938229195031524266
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-08-01,79.3649,false,103.9003424729268343771600930
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-09-01,79.3896,false,103.9326784105904777863890576
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-10-01,79.0829,false,103.5311629417062901908213066
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-11-01,78.8728,false,103.2561110994742464548291825
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2018-12-01,79.1512,false,103.6205777005089964600657716
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-01-01,78.4546,false,102.7086257095578224167905993
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-02-01,77.9977,false,102.1104763201441109319033954
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-03-01,77.8167,false,101.8735206635805701598206992
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-04-01,77.3266,false,101.2319075846756456714354538
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-05-01,77.3386,false,101.2476173519616262751094447
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-06-01,77.6484,false,101.6531911773946921932929767
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-07-01,77.1189,false,100.9599976959007980561781278
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-08-01,77.6535,false,101.6598678284912339498544228
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-09-01,77.0507,false,100.8707138518254749586309461
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-10-01,76.4496,false,100.0837854255252298862612848
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-11-01,77.1244,false,100.9671980059068724995287070
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2019-12-01,77.2053,false,101.0731080203598584026308624
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-01-01,76.9774,false,100.7747533566536101045223183
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-02-01,77.2033,false,101.0704897258121949686851972
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-03-01,73.7668,false,96.57160511928949959154605056
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-04-01,62.4754,false,81.78949959154605056450430448
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-05-01,65.3154,false,85.50747784922812676734881967
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-06-01,70.5106,false,92.30875976623866278460861733
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-07-01,73.1726,false,95.79370980917869336628893404
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-08-01,74.2964,false,97.26492951551077690035818269
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-09-01,74.3524,false,97.33824176284535305083680694
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-10-01,75.1925,false,98.43805638759137847971345384
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-11-01,75.6805,false,99.07692025722125636245575082
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2020-12-01,76.354,false,99.95863094614691774365849061
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-01-01,77.1699,false,101.0267642068662156217925892
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-02-01,74.0286,false,96.91433987557864309503361890
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-03-01,76.4058,false,100.0264447749314006828512180
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-04-01,76.6281,false,100.3174682139041913659118996
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-05-01,77.5117,false,101.4742307450618964831067636
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-06-01,77.5594,false,101.5366770700236693827108774
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-07-01,78.2805,false,102.4807031691837204918204478
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-08-01,77.8379,false,101.9012745857858025596447498
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-09-01,76.894,false,100.6655704740160449089880815
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-10-01,77.9803,false,102.0876971575794390565761086
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-11-01,78.439,false,102.6882030120860476320144111
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2021-12-01,78.3404,false,102.5591210908862403384931191
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-01-01,77.585,false,101.5701912402337613372153914
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-02-01,78.0262,false,102.1477870174483148656291238
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-03-01,78.3705,false,102.5985264238285750193753797
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-04-01,78.3191,false,102.5312362539536247669717853
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-05-01,77.9575,false,102.0578485997360759095955259
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-06-01,77.515,false,101.4785509310655411491171111
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-07-01,77.5659,false,101.5451865273035755430342892
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-08-01,77.5335,false,101.5027701556314279131145137
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-09-01,77.5079,false,101.4692559854213359586099998
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-10-01,77.6805,false,101.6952148048846903081209024
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-11-01,77.0373,false,100.8531712783561299511949896
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2022-12-01,75.6673,false,99.05963951320667769841436082
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-01-01,76.9659,false,100.7596981630045453593347437
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-02-01,76.9753,false,100.7720041473785634988793699
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-03-01,76.4495,false,100.0836545107978467145640016
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-04-01,77.1414,false,100.9894535095620116880668608
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-05-01,76.9659,false,100.7596981630045453593347437
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-06-01,76.398,false,100.0162334261955132904631239
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-07-01,76.664,false,100.3644666010347500052365891
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-08-01,76.5909,false,100.2687679353176514945225278
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-09-01,76.5797,false,100.2541054858507362644268030
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-10-01,76.1299,false,99.66525104208122997004671037
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-11-01,76.4498,false,100.0840472549799962296558514
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2023-12-01,76.4022,false,100.0217318447456065017490208
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-01-01,75.1799,false,98.42156113194109884585576339
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-02-01,76.0838,false,99.60489935275758781759912863
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-03-01,76.1421,false,99.68122263882197691711526780
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-04-01,75.6821,false,99.07901489285938710961228294
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-05-01,76.0561,false,99.56863597327244925745166628
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-06-01,75.865,false,99.31845792924320814394336105
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-07-01,75.2171,false,98.47026141052763871724513521
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-08-01,75.5198,false,98.86654029031649944492155590
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-09-01,75.0416,false,98.24050606397017238851301816
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-10-01,74.4805,false,97.50594352862319599505665989
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-11-01,74.6357,false,97.70912318552187846924027565
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2024-12-01,74.9036,false,98.05984374018139544626212270
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-01-01,74.536,false,97.57860120232085628704886785
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-02-01,75.3898,false,98.69635114471837623845332104
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-03-01,75.6543,false,99.04262059864686537776753734
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-04-01,75.5341,false,98.88526109633229299763306173
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-05-01,75.393,false,98.70054041599463773276638529
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-06-01,75.5712,false,98.93383046019144969732515029
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-07-01,75.8707,false,99.32592006870404893068850673
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-08-01,75.8014,false,99.23519616262751094447120923
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-09-01,75.6918,false,99.09171362141555476424875893
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-10-01,74.9662,false,98.14179635952326092876144195
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-11-01,74.8205,false,97.95105360172597976581973566
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2025-12-01,74.6279,false,97.69891183678599107685218156
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2026-01-01,74.6388,false,97.71318154207075679185605664
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2026-02-01,75.0954,false,98.31093818730231876165141074
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2026-03-01,75.1141,false,98.33541924132297186904337990
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2026-04-01,75.6059,false,98.97925787059341027628244067
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2026-05-01,75.6179,false,98.99496763787939087995643158
+MCUMFN,Capacity Utilization: Manufacturing (NAICS),"Percent, Seasonally Adjusted",2026-06-01,75.5559,false,98.91380050690182442764081188
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-01-01,185.6,false,100
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-02-01,186.2,false,100.3232758620689655172413793
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-03-01,186.7,false,100.5926724137931034482758621
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-04-01,187.6,false,101.0775862068965517241379310
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-05-01,187.3,false,100.9159482758620689655172414
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-06-01,187.6,false,101.0775862068965517241379310
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-07-01,187.3,false,100.9159482758620689655172414
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-08-01,188.4,false,101.5086206896551724137931034
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-09-01,189.6,false,102.1551724137931034482758621
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-10-01,190.2,false,102.4784482758620689655172414
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-11-01,191.2,false,103.0172413793103448275862069
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2017-12-01,191.3,false,103.0711206896551724137931034
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-01-01,192.6,false,103.7715517241379310344827586
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-02-01,193.5,false,104.2564655172413793103448276
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-03-01,194.0,false,104.5258620689655172413793103
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-04-01,195.3,false,105.2262931034482758620689655
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-05-01,197.7,false,106.5193965517241379310344828
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-06-01,198.4,false,106.8965517241379310344827586
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-07-01,198.5,false,106.9504310344827586206896552
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-08-01,198.6,false,107.0043103448275862068965517
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-09-01,198.9,false,107.1659482758620689655172414
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-10-01,200.4,false,107.9741379310344827586206897
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-11-01,198.4,false,106.8965517241379310344827586
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2018-12-01,195.2,false,105.1724137931034482758620690
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-01-01,194.3,false,104.687500
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-02-01,195.4,false,105.2801724137931034482758621
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-03-01,197.4,false,106.3577586206896551724137931
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-04-01,199.2,false,107.3275862068965517241379310
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-05-01,199.1,false,107.2737068965517241379310345
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-06-01,197.0,false,106.1422413793103448275862069
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-07-01,197.5,false,106.4116379310344827586206897
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-08-01,196.4,false,105.8189655172413793103448276
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-09-01,195.9,false,105.5495689655172413793103448
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-10-01,196.6,false,105.9267241379310344827586207
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-11-01,196.5,false,105.8728448275862068965517241
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2019-12-01,196.4,false,105.8189655172413793103448276
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-01-01,196.6,false,105.9267241379310344827586207
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-02-01,195.1,false,105.1185344827586206896551724
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-03-01,192.3,false,103.6099137931034482758620690
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-04-01,186.1,false,100.2693965517241379310344828
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-05-01,188.9,false,101.7780172413793103448275862
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-06-01,190.2,false,102.4784482758620689655172414
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-07-01,192.3,false,103.6099137931034482758620690
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-08-01,193.0,false,103.9870689655172413793103448
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-09-01,192.9,false,103.9331896551724137931034483
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-10-01,193.7,false,104.3642241379310344827586207
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-11-01,194.5,false,104.7952586206896551724137931
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2020-12-01,196.7,false,105.9806034482758620689655172
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-01-01,199.6,false,107.5431034482758620689655172
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-02-01,203.1,false,109.4288793103448275862068966
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-03-01,207.9,false,112.0150862068965517241379310
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-04-01,210.1,false,113.2004310344827586206896552
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-05-01,215.1,false,115.8943965517241379310344828
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-06-01,217.9,false,117.4030172413793103448275862
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-07-01,219.492,false,118.2607758620689655172413793
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-08-01,220.114,false,118.5959051724137931034482759
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-09-01,221.869,false,119.5414870689655172413793103
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-10-01,225.478,false,121.4859913793103448275862069
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-11-01,227.109,false,122.3647629310344827586206897
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2021-12-01,226.470,false,122.0204741379310344827586207
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-01-01,231.495,false,124.7279094827586206896551724
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-02-01,237.245,false,127.8259698275862068965517241
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-03-01,245.404,false,132.2219827586206896551724138
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-04-01,249.560,false,134.4612068965517241379310345
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-05-01,256.396,false,138.1443965517241379310344828
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-06-01,262.418,false,141.3890086206896551724137931
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-07-01,256.526,false,138.2144396551724137931034483
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-08-01,251.494,false,135.5032327586206896551724138
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-09-01,251.891,false,135.7171336206896551724137931
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-10-01,254.030,false,136.8696120689655172413793103
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-11-01,252.905,false,136.2634698275862068965517241
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2022-12-01,245.115,false,132.0662715517241379310344828
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-01-01,249.178,false,134.2553879310344827586206897
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-02-01,249.308,false,134.3254310344827586206896552
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-03-01,248.980,false,134.1487068965517241379310345
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-04-01,248.583,false,133.9348060344827586206896552
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-05-01,246.206,false,132.6540948275862068965517241
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-06-01,245.784,false,132.4267241379310344827586207
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-07-01,245.434,false,132.2381465517241379310344828
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-08-01,251.093,false,135.2871767241379310344827586
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-09-01,252.368,false,135.9741379310344827586206897
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-10-01,249.119,false,134.2235991379310344827586207
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-11-01,246.497,false,132.8108836206896551724137931
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2023-12-01,243.266,false,131.0700431034482758620689655
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-01-01,244.056,false,131.4956896551724137931034483
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-02-01,248.295,false,133.7796336206896551724137931
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-03-01,249.516,false,134.437500
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-04-01,251.376,false,135.4396551724137931034482759
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-05-01,248.763,false,134.0317887931034482758620690
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-06-01,247.720,false,133.4698275862068965517241379
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-07-01,249.847,false,134.6158405172413793103448276
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-08-01,249.168,false,134.2500
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-09-01,246.339,false,132.7257543103448275862068966
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-10-01,247.216,false,133.1982758620689655172413793
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-11-01,246.636,false,132.8857758620689655172413793
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2024-12-01,246.083,false,132.5878232758620689655172414
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-01-01,248.662,false,133.9773706896551724137931034
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-02-01,250.310,false,134.8653017241379310344827586
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-03-01,249.728,false,134.5517241379310344827586207
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-04-01,250.465,false,134.9488146551724137931034483
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-05-01,251.354,false,135.4278017241379310344827586
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-06-01,252.015,false,135.7839439655172413793103448
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-07-01,253.645,false,136.6621767241379310344827586
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-08-01,253.694,false,136.6885775862068965517241379
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-09-01,254.624,false,137.1896551724137931034482759
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-10-01,253.308,false,136.4806034482758620689655172
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-11-01,254.529,false,137.1384698275862068965517241
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2025-12-01,251.883,false,135.7128232758620689655172414
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2026-01-01,253.279,false,136.4649784482758620689655172
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2026-02-01,257.028,false,138.4849137931034482758620690
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2026-03-01,265.755,false,143.1869612068965517241379310
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2026-04-01,273.114,false,147.1519396551724137931034483
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2026-05-01,281.407,false,151.6201508620689655172413793
+PCUOMFGOMFG,Producer Price Index by Industry: Total Manufacturing Industries,"Index Dec 1984=100, Not Seasonally Adjusted",2026-06-01,275.702,false,148.5463362068965517241379310
