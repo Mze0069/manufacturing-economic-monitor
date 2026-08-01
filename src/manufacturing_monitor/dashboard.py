@@ -1,3 +1,5 @@
+"""Render the interactive Streamlit manufacturing dashboard."""
+
 from __future__ import annotations
 
 from collections import defaultdict
@@ -28,6 +30,7 @@ logger = logging.getLogger(__name__)
 
 
 def main() -> None:
+    """Render the complete Streamlit dashboard."""
     load_dotenv()
     configure_logging(verbose=False, log_file=None)
 

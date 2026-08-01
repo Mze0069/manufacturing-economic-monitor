@@ -1,3 +1,5 @@
+"""Call the FRED API and convert request failures into application errors."""
+
 from __future__ import annotations
 
 from datetime import date

@@ -1,3 +1,5 @@
+"""Serialize validated observations and analytics to JSON and CSV files."""
+
 from __future__ import annotations
 
 import csv
@@ -31,6 +33,7 @@ class OutputWriteError(RuntimeError):
 
 
 def write_raw_json(payload: dict[str, Any], path: Path) -> None:
+    """Write the complete raw FRED response as formatted JSON."""
     _write_json(payload, path, error_prefix="raw output")
 
 
@@ -38,6 +41,7 @@ def write_processed_json(
     observations: tuple["ProcessedObservation", ...],
     path: Path,
 ) -> None:
+    """Write validated processed observations as JSON."""
     rows = [{"date": item.date, "value": item.value} for item in observations]
     _write_json(rows, path, error_prefix="processed output")
 
@@ -169,6 +173,7 @@ def build_combined_processed_payload(result: "ApplicationResult") -> dict[str, A
 
 
 def write_combined_processed_json(result: "ApplicationResult", path: Path) -> None:
+    """Write the combined multi-series processed payload as JSON."""
     _write_json(build_combined_processed_payload(result), path, error_prefix="processed output")
 
 

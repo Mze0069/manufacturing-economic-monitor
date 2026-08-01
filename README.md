@@ -180,6 +180,14 @@ The project produces both a Python wheel and source distribution.
 - Test fixtures use fake credentials and offline responses.
 - PyPI credentials are used only through secure password prompts.
 
+## Project documentation
+
+- [Open-source license](LICENSE)
+- [Contributor and agent guidance](AGENTS.md)
+- [Data dictionary](docs/data_dictionary.md)
+- [Authoritative Quarto report source](reports/manufacturing_report.qmd)
+- [Rendered reproducible report](reports/manufacturing_report.pdf)
+
 ## Author
 
 Mohammadreza Ensafi

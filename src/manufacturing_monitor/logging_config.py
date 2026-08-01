@@ -1,3 +1,5 @@
+"""Configure safe console and file logging for the application."""
+
 from __future__ import annotations
 
 import logging
@@ -10,6 +12,7 @@ class LoggingSetupError(RuntimeError):
 
 
 def configure_logging(*, verbose: bool, log_file: Path | None) -> None:
+    """Configure application logging without exposing secrets."""
     logger = logging.getLogger("manufacturing_monitor")
     _remove_handlers(logger)
     logger.setLevel(logging.DEBUG)

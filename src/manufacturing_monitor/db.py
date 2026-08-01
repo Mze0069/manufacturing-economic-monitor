@@ -1,3 +1,5 @@
+"""Persist and retrieve manufacturing observations and metadata with SQLite."""
+
 from __future__ import annotations
 
 from collections.abc import Callable, Sequence

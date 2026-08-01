@@ -1,3 +1,5 @@
+"""Provide the Manufacturing Economic Monitor command-line interface."""
+
 from __future__ import annotations
 
 import argparse
@@ -30,6 +32,7 @@ logger = logging.getLogger(__name__)
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
+    """Parse command-line arguments and return the configured namespace."""
     parser = argparse.ArgumentParser(
         prog="manufacturing-monitor",
         description="Fetch and validate supported FRED manufacturing observations.",
@@ -95,6 +98,7 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
 
 
 def main(argv: Sequence[str] | None = None) -> None:
+    """Run the CLI and return a process exit status."""
     load_dotenv()
     args = parse_args(argv)
 

@@ -1,3 +1,5 @@
+"""Calculate summaries, percentage changes, and normalized comparisons."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass

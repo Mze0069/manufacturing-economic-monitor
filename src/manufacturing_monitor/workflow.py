@@ -1,3 +1,5 @@
+"""Coordinate API retrieval, validation, caching, analytics, and output."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -45,6 +47,7 @@ class WorkflowError(RuntimeError):
 
 @dataclass(frozen=True, slots=True)
 class MonitorRequest:
+    """Request parameters for retrieving one manufacturing series."""
     api_key: str
     series_id: str = "IPMAN"
     observation_start: date | str | None = None
@@ -53,12 +56,14 @@ class MonitorRequest:
 
 @dataclass(frozen=True, slots=True)
 class ProcessedObservation:
+    """Validated date and value pair used by the legacy workflow."""
     date: str
     value: str
 
 
 @dataclass(frozen=True, slots=True)
 class MonitorResult:
+    """Validated observations and latest valid value for one series."""
     raw_payload: dict[str, Any]
     observations: tuple[ProcessedObservation, ...]
     latest: ProcessedObservation
@@ -66,6 +71,7 @@ class MonitorResult:
 
 @dataclass(frozen=True, slots=True)
 class ApplicationRequest:
+    """Complete multi-series application request."""
     series_ids: tuple[str, ...] = ("IPMAN",)
     api_key: str | None = None
     observation_start: date | str | None = None
@@ -78,6 +84,7 @@ class ApplicationRequest:
 
 @dataclass(frozen=True, slots=True)
 class ApplicationSeriesResult:
+    """Per-series result including data source and refresh metadata."""
     series_id: str
     source_kind: str
     raw_path: Path | None
@@ -87,6 +94,7 @@ class ApplicationSeriesResult:
 
 @dataclass(frozen=True, slots=True)
 class ApplicationResult:
+    """Combined application output for CLI and dashboard consumers."""
     requested_series_ids: tuple[str, ...]
     requested_start_date: date | None
     requested_end_date: date | None
@@ -103,6 +111,7 @@ class ApplicationResult:
 
 
 def fetch_monitor_data(request: MonitorRequest) -> dict[str, Any]:
+    """Retrieve one FRED payload through the API boundary."""
     return fetch_observations(
         request.api_key,
         series_id=request.series_id,
@@ -112,6 +121,7 @@ def fetch_monitor_data(request: MonitorRequest) -> dict[str, Any]:
 
 
 def build_monitor_result(payload: dict[str, Any]) -> MonitorResult:
+    """Validate a payload and create a single-series result."""
     logger.info("Validating FRED response data.")
     validated = validate_fred_response(payload)
     observations = tuple(_processed_observation(item) for item in validated.observations)
@@ -306,6 +316,7 @@ def run_monitor_application(
 def latest_valid_observation(
     observations: tuple[ProcessedObservation, ...],
 ) -> ProcessedObservation:
+    """Return the latest numeric observation or raise when none exists."""
     for observation in reversed(observations):
         if observation.value == ".":
             continue
@@ -315,6 +326,7 @@ def latest_valid_observation(
 
 
 def format_summary(result: MonitorResult) -> str:
+    """Format an application result as readable command-line text."""
     return (
         "Manufacturing Economic Monitor\n"
         f"Latest manufacturing index: {result.latest.value} on {result.latest.date}\n"

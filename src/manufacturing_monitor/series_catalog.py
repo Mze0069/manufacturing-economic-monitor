@@ -1,3 +1,5 @@
+"""Define and query the supported FRED manufacturing series catalog."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -5,6 +7,7 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True, slots=True)
 class SupportedSeries:
+    """Metadata describing one supported FRED manufacturing series."""
     series_id: str
     display_name: str
     units: str
@@ -50,6 +53,7 @@ SUPPORTED_SERIES_BY_ID: dict[str, SupportedSeries] = {
 
 
 def get_supported_series(series_id: str) -> SupportedSeries:
+    """Return metadata for a supported series identifier."""
     try:
         return SUPPORTED_SERIES_BY_ID[series_id]
     except KeyError as exc:
@@ -57,8 +61,10 @@ def get_supported_series(series_id: str) -> SupportedSeries:
 
 
 def is_supported_series(series_id: str) -> bool:
+    """Return whether a series identifier is supported."""
     return series_id in SUPPORTED_SERIES_BY_ID
 
 
 def supported_series_ids() -> tuple[str, ...]:
+    """Return all supported series identifiers in catalog order."""
     return tuple(series.series_id for series in SUPPORTED_SERIES)
