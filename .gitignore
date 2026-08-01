@@ -31,3 +31,6 @@ logs/
 *.sqlite
 *.sqlite3
 exports/
+
+# Quarto local cache
+reports/.quarto/
